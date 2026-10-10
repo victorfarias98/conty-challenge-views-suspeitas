@@ -189,4 +189,6 @@ Sem veredito: as views subiram 71,5 vezes em uma hora (de 291 para 20800, na hor
 
 O código, o gerador do dataset, os testes e este README foram escritos com Claude Code (Claude Opus), a partir do enunciado. Os três sinais, os limiares e os tipos de série do dataset foram propostos pela IA.
 
+Verificação automática, rodada pela IA e não por mim: `npm test` passa com 25 testes em 2 arquivos e `npx tsc --noEmit` não acusa erro. Entre os testes estão "a taxa de falso positivo do README é a medida agora, não uma estimativa" e "é reproduzível: o arquivo commitado é exatamente o que o gerador produz".
+
 O que eu revisei: os padrões de backend, as tipagens, os early returns, as constantes e se os testes realmente testam os cenários de falha.
